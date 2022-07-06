@@ -10,7 +10,7 @@ public class DiscordController : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		discord = new Discord.Discord(CLIENT_ID, (System.UInt64)Discord.CreateFlags.Default);
+		discord = new Discord.Discord(979688480324071515, (System.UInt64)Discord.CreateFlags.Default);
 		Debug.Log("Client ID Fetched Succesfully");
 		var activityManager = discord.GetActivityManager();
 		var activity = new Discord.Activity
